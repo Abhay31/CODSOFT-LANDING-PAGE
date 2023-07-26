@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/ico" href="/img/favicon.ico">
+  <script src="https://kit.fontawesome.com/9e56238c4a.js" crossorigin="anonymous"></script>
+  <title>Landing Page</title>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <header>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <div class="logo">
+          <a href="" style="text-decoration: none;color: black;"><i class="fab fa-digital-ocean"></i></a>
+          <span class="company-name">CREATIVE DIGITAL AGENCY</span>
+        </div>
+      </div>
+      <div class="navbar-right">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="search-box">
+          <input type="text" placeholder="Search">
+          <button><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Home -->
+
+  <section id="home">
+    <div class="container">
+      <div class="home-content">
+        <h2 style="color:black">WE ARE CREATIVE</h2>
+        <h1 font-size>CREATIVE DIGITAL AGENCY</h1>
+        <p>Transforming brands through innovative strategies, stunning designs, and cutting-edge technology. We create
+          captivating digital experiences that drive results.
+        </p>
+        <a href="#" style="text-decoration: none;color: white;"><button class="btn">READ MORE</button></a>
+        <a href="#" style="text-decoration: none;color: white;margin-left: 4px;"><button class="btn">REQUEST A
+            CONSULT</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+
+  <section id="about">
+    <div class="container">
+      <h2 class="about-heading">About Us</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <h2>15 years, we passionate about achieving better results for our clients</h2>
+          <p>At our creative digital agency, we are driven by a shared passion for pushing boundaries and delivering
+            excellence. With a team of talented experts, we embark on a journey of ingenuity, crafting immersive digital
+            experiences that leave a lasting impact on your audience. From branding to web design, mobile apps to social
+            media strategies, our comprehensive services encompass all aspects of digital success. We take pride in
+            transforming visions into reality, blending creativity and cutting-edge technology to elevate your brand's
+            online presence. Partner with us and let's embark on a transformative digital adventure together.</p>
+          <a href="#" style="text-decoration: none;color: white;"><button class="about-btn">READ MORE</button></a>
+        </div>
+        <div class="about-image">
+          <img src="img/man.png" alt="About Us Image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+
+  <section id="services">
+    <div class="container">
+      <h2 class="services-heading">Our Services</h2>
+      <div class="services-content">
+        <div class="service">
+          <h3><i class="fas fa-rocket"></i> LAUNCH BUSINESS</h3>
+          <p>Learn about how to create and launch business</p>
+        </div>
+        <div class="service">
+          <h3><i class="fas fa-headphones"></i> ONLINE SUPPORT TEAM</h3>
+          <p>Help and support while creating and launching the business</p>
+        </div>
+        <div class="service">
+          <h3><i class="far fa-clock"></i> TIME MANAGEMENT</h3>
+          <p>Learn about how to manage time and make strategies</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+
+  <section id="contact">
+    <div class="container">
+      <div class="content">
+        <h1>Contact Us</h1>
+        <form>
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Your Email">
+          <textarea placeholder="Your Message"></textarea>
+          <button type="submit">Send Message</button>
+          <button type="reset">Reset</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer>
+    <div class="container">
+      <ul class="social-media-icons">
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+      <ul class="contact-info">
+        <li><i class="fas fa-phone"></i> +91-1234567899</li>
+      </ul>
+      <ul class="contact-info">
+        <li><i class="fas fa-envelope"></i> cda@gmail.com</li>
+      </ul> 
+      <div title="Move to Top" class="move-to-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+      </div>
+      <p>&copy; 2023 Landing Page. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+</html>
